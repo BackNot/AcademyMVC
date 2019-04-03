@@ -38,3 +38,6 @@ You can do a lot of things. For example you can add lessons:
 
 Note: All html symbols that we enter are not going to be sanitized. This should never happen in real environment, but for the sake of testing I allow it here. We can escape < and > by using [[<]] and [[>]].
 ![Add lesson](https://github.com/BackNot/AcademyMVC/blob/master/PicturesOfProject/AcademyAddLesson.png)
+
+Result:
+![Add lesson2](https://github.com/BackNot/AcademyMVC/blob/master/PicturesOfProject/AcademyLesson2.png)
