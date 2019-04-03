@@ -1,3 +1,3 @@
 # AcademyMVC
 Academy
-![Index](https://github.com/BackNot/AcademyMVC/PicturesOfProject/AcademyIndex.png)
+![Index](https://github.com/BackNot/AcademyMVC/blob/master/PicturesOfProject/AcademyIndex.png)
