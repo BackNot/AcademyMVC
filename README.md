@@ -1,4 +1,9 @@
 # AcademyMVC
+This is an ASP.NET MVC project. It was a university assignment. I've used HTML5/CSS3 , Bootstrap , jQuery to build the frontend part.
+The project is an Academy for online tutorials. You must create an account (ASP.NET Identity) in order to sign for a course, but it needs to has free spaces. After that you can start reading the lessons. 
+
+If you are in Administrator role , you can manage users (make/remove admin rights) , add/remove disciplines and lessons.
+Lessons are written in a .txt file (with StreamWriter) and read from there as well (StreamReader). Those files are saved in Views/Disciplines/Lessons.
 
   /Home/Index
 ![Index](https://github.com/BackNot/AcademyMVC/blob/master/PicturesOfProject/AcademyIndex.png)
@@ -31,4 +36,5 @@ If you are an Administrator you have access to this panel (if you aren't you can
 
 You can do a lot of things. For example you can add lessons:
 
+Note: All html symbols that we enter are not going to be sanitized. This should never happen in real environment, but for the sake of testing I allow it here. We can escape < and > by using [[<]] and [[>]].
 ![Add lesson](https://github.com/BackNot/AcademyMVC/blob/master/PicturesOfProject/AcademyAddLesson.png)
