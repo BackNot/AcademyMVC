@@ -31,7 +31,7 @@ When you click the green button you can see the lesson (Don't mind that the less
 
 If you are an Administrator you have access to this panel (if you aren't you can't see the 'Admin panel' option)
 
-![Admin Panel](https://github.com/BackNot/AcademyMVC/blob/master/PicturesOfProject/AcademyAdminPanel.png);
+![Admin Panel](https://github.com/BackNot/AcademyMVC/blob/master/PicturesOfProject/AcademyAdminPanel.png)
 
 
 You can do a lot of things. For example you can add lessons:
