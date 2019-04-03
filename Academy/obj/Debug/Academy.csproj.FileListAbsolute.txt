@@ -1,0 +1,149 @@
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\Academy.dll.config
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\Academy.dll
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\Academy.pdb
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\Antlr3.Runtime.dll
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\EntityFramework.dll
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\EntityFramework.SqlServer.dll
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\Microsoft.Owin.dll
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\Microsoft.Owin.Security.dll
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\Newtonsoft.Json.dll
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\Owin.dll
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\System.Web.Helpers.dll
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\System.Web.Mvc.dll
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\System.Web.Optimization.dll
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\System.Web.Razor.dll
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\System.Web.WebPages.dll
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\System.Web.WebPages.Razor.dll
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\WebGrease.dll
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\System.Web.Helpers.xml
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\System.Web.Mvc.xml
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\System.Web.Optimization.xml
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\System.Web.Razor.xml
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\System.Web.WebPages.xml
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\System.Web.WebPages.Razor.xml
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\Newtonsoft.Json.xml
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\Antlr3.Runtime.pdb
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\EntityFramework.xml
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\EntityFramework.SqlServer.xml
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\Microsoft.Owin.xml
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\Microsoft.Owin.Security.xml
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\obj\Debug\Academy.dll
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\obj\Debug\Academy.pdb
+C:\Users\Alex\documents\visual studio 2013\Projects\Academy\Academy\obj\Debug\Academy.Migrations.InitialCreate.resources
+C:\Users\Alex\documents\visual studio 2013\Projects\Academy\Academy\obj\Debug\Academy.csproj.GenerateResource.Cache
+C:\Users\Alex\documents\visual studio 2013\Projects\Academy\Academy\obj\Debug\Academy.Migrations.AddModels.resources
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\obj\Debug\Academy.Migrations.AddCustomInitializer.resources
+C:\Users\Alex\Documents\Visual Studio 2013\Projects\Academy\Academy\obj\Debug\Academy.Migrations.UpdateUserFields.resources
+C:\Users\Alex\documents\visual studio 2013\Projects\Academy\Academy\bin\PagedList.dll
+C:\Users\Alex\documents\visual studio 2013\Projects\Academy\Academy\bin\PagedList.Mvc.dll
+C:\Users\Alex\documents\visual studio 2013\Projects\Academy\Academy\bin\PagedList.xml
+C:\Users\Alex\documents\visual studio 2013\Projects\Academy\Academy\bin\PagedList.Mvc.xml
+C:\Users\Alex\documents\visual studio 2013\Projects\Academy\Academy\obj\Debug\Academy.Migrations.AddDescriptionToCourses.resources
+C:\Users\Alex\documents\visual studio 2013\Projects\Academy\Academy\obj\Debug\Academy.Migrations.AddDescriptionToLessonObj.resources
+C:\Users\Alex\documents\visual studio 2013\Projects\Academy\Academy\obj\Debug\Academy.csprojResolveAssemblyReference.cache
+C:\Users\Alex\documents\visual studio 2013\Projects\Academy\Academy\obj\Debug\Academy.Migrations.AddContentFieldToLesson.resources
+C:\Users\Alex\documents\visual studio 2013\Projects\Academy\Academy\bin\AntiXssLibrary.dll
+C:\Users\Alex\documents\visual studio 2013\Projects\Academy\Academy\bin\HtmlSanitizationLibrary.dll
+C:\Users\Alex\documents\visual studio 2013\Projects\Academy\Academy\bin\AntiXssLibrary.xml
+C:\Users\Alex\documents\visual studio 2013\Projects\Academy\Academy\bin\HtmlSanitizationLibrary.xml
+C:\Users\Alex\documents\visual studio 2013\Projects\Academy\Academy\obj\Debug\Academy.Migrations.AddTotalSpaceFieldAndDataAnnotations.resources
+C:\Users\Alex\documents\visual studio 2013\Projects\Academy\Academy\obj\Debug\Academy.Migrations.AcceptNullValuesContent.resources
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\Academy.dll.config
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\Academy.dll
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\Academy.pdb
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\AntiXssLibrary.dll
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\Antlr3.Runtime.dll
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\EntityFramework.dll
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\EntityFramework.SqlServer.dll
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\HtmlSanitizationLibrary.dll
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\Microsoft.Owin.dll
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\Microsoft.Owin.Security.dll
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\Newtonsoft.Json.dll
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\Owin.dll
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\PagedList.dll
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\PagedList.Mvc.dll
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\System.Web.Helpers.dll
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\System.Web.Mvc.dll
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\System.Web.Optimization.dll
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\System.Web.Razor.dll
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\System.Web.WebPages.Deployment.dll
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\System.Web.WebPages.dll
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\System.Web.WebPages.Razor.dll
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\WebGrease.dll
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\AntiXssLibrary.xml
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\EntityFramework.xml
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\EntityFramework.SqlServer.xml
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\HtmlSanitizationLibrary.xml
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\Microsoft.Owin.xml
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\Microsoft.Owin.Security.xml
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\Newtonsoft.Json.xml
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\PagedList.xml
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\PagedList.Mvc.xml
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\System.Web.Helpers.xml
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\System.Web.Mvc.xml
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\System.Web.Optimization.xml
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\System.Web.Razor.xml
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\System.Web.WebPages.xml
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\System.Web.WebPages.Deployment.xml
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\System.Web.WebPages.Razor.xml
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\Antlr3.Runtime.pdb
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\obj\Debug\Academy.csprojAssemblyReference.cache
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\obj\Debug\Academy.Migrations.InitialCreate.resources
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\obj\Debug\Academy.Migrations.AddModels.resources
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\obj\Debug\Academy.Migrations.AddCustomInitializer.resources
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\obj\Debug\Academy.Migrations.UpdateUserFields.resources
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\obj\Debug\Academy.Migrations.AddDescriptionToCourses.resources
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\obj\Debug\Academy.Migrations.AddDescriptionToLessonObj.resources
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\obj\Debug\Academy.Migrations.AddContentFieldToLesson.resources
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\obj\Debug\Academy.Migrations.AddTotalSpaceFieldAndDataAnnotations.resources
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\obj\Debug\Academy.Migrations.AcceptNullValuesContent.resources
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\obj\Debug\Academy.csproj.GenerateResource.cache
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\obj\Debug\Academy.csproj.CoreCompileInputs.cache
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\obj\Debug\Academy.csproj.CopyComplete
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\obj\Debug\Academy.dll
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\obj\Debug\Academy.pdb
+C:\Users\alex\Desktop\Projects\Academy(final)\Academy\obj\Debug\Academy.Migrations.ChangeAgeFieldToInt32.resources

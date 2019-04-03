@@ -1,0 +1,26 @@
+<h2>HTML Documents</h2> <br>
+All HTML documents must start with a document type declaration: [[<]]!DOCTYPE html[[>]]
+<br><br>
+The HTML document itself begins with [[<]]html[[>]] and ends with [[<]]/html[[>]].
+<br><br>
+The visible part of the HTML document is between [[<]]body[[>]] and [[<]]/body[[>]].
+<br><br>
+[[<]]!DOCTYPE html[[>]]<br>
+[[<]]html[[>]]<br>
+[[<]]body[[>]]<br>
+<br><br>
+[[<]]h1>My First Heading</h1[[>]]<br>
+[[<]]p>My first paragraph.</p[[>]]<br>
+<br><br>
+[[<]]/body[[>]]<br>
+[[<]]/html[[>]]<br>
+<br><br>
+<h2>HTML Headings</h2><br>
+HTML headings are defined with the [[<]]h1[[>]] to [[<]]h6[[>]] tags.<br><br>
+
+[[<]]h1[[>]] defines the most important heading. [[<]]h6[[>]] defines the least important heading:<br><br> 
+
+Example<br>
+<h1>This is heading 1</h1><br>
+<h2>This is heading 2</h2><br>
+<h3>This is heading 3</h3><br>

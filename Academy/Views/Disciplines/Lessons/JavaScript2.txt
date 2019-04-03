@@ -1,0 +1,17 @@
+<h2>The [[<]]script[[>]] Tag</h2><br>
+In HTML, JavaScript code must be inserted between [[<]]script[[>]] and [[<]]/script[[>]] tags.
+<br><br>
+[[<]]script[[>]]<br>
+document.getElementById("demo").innerHTML = "My First JavaScript";<br>
+[[<]]/script[[>]]<br><br><br>
+
+<h2>JavaScript Functions and Events</h2><br><br>
+A JavaScript function is a block of JavaScript code, that can be executed when "called" for.<br><br>
+
+For example, a function can be called when an event occurs, like when the user clicks a button.<br><br>
+
+You will learn much more about functions and events in later chapters.<br><br>
+
+You can place any number of scripts in an HTML document.
+
+Scripts can be placed in the [[<]]body[[>]], or in the [[<]]head[[>]] section of an HTML page, or in both.

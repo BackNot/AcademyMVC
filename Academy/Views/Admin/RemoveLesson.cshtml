@@ -1,0 +1,48 @@
+﻿@using Academy.Models;
+@using Academy.Infrastructure
+@{
+    ViewBag.Title = "RemoveLesson";
+}
+
+<h2>RemoveLesson</h2>
+
+@{
+    using (ApplicationDbContext context = new ApplicationDbContext())
+    {
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Course:</th>
+                        <th>Name:</th>
+                        <th>Description:</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var lesson in context.Lessons)
+                    {
+                        <tr>
+                            @if (lesson.LinkedCourse == null)
+                            {
+                                <td>None</td>
+                            }
+                            else
+                            {
+                                <td>@lesson.LinkedCourse.Name</td>
+                            }
+                        <td>@lesson.Name</td>
+                        <td>@lesson.Description</td>
+                        <td>
+                            @using (Html.BeginForm("RemoveLesson"))
+                            {
+                                <button name="submit" class="btn btn-sm" value="@lesson.Name">Remove</button>
+                            }
+                        </td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+    }
+}

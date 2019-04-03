@@ -1,0 +1,16 @@
+﻿@model Academy.Models.Course
+@{
+    ViewBag.Title = "AddDisc";
+}
+
+<h1 class="display-4">Add discipline</h1>
+
+@using (Html.BeginForm("AddDisc", "Admin"))
+{
+@Html.ValidationSummary()
+@Html.EditorForModel()
+
+    @Html.AntiForgeryToken()
+
+    <input type="submit" class="btn" value="Add" />
+}

@@ -1,0 +1,19 @@
+﻿@model string
+@{
+    ViewBag.Title = "Lesson";
+}
+
+
+
+@if (ViewBag.NotFound!=null) // if file is not found tell the user
+{
+    <h2>404</h2>
+    <span class="text-danger">File can't be found! Please try again or contact an administrator!</span>
+    <br />
+}
+else
+{ 
+@Html.Raw(Model) <!-- We need to be VERY careful here! -->
+}
+<br>
+@Html.ActionLink("Back", "MyDisc", "Disciplines")

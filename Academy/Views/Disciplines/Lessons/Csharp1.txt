@@ -1,0 +1,18 @@
+C# is a simple, modern, general-purpose, object-oriented programming language developed by Microsoft within its .NET initiative led by Anders Hejlsberg. This tutorial will teach you basic C# programming and will also take you through various advanced concepts related to C# programming language.<br><br>
+
+Although C# constructs closely follow traditional high-level languages, C and C++ and being an object-oriented programming language. It has strong resemblance with Java, it has numerous strong programming features that make it endearing to a number of programmers worldwide.<br><br>
+
+Following is the list of few important features of C# ?<br><br><br>
+
+Boolean Conditions<br>
+Automatic Garbage Collection<br>
+Standard Library<br>
+Assembly Versioning<br>
+Properties and Events<br>
+Delegates and Events Management<br>
+Easy-to-use Generics<br>
+Indexers<br>
+Conditional Compilation<br>
+Simple Multithreading<br>
+LINQ and Lambda Expressions<br>
+Integration with Windows<br>

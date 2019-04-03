@@ -1,0 +1,55 @@
+﻿@using Academy.Models;
+@model ApplicationUser
+
+<h1 class="display-4">Profile</h1><br />
+
+<div class="container">
+    <div class="row">
+        
+        <div class="col-md-12">
+            Username:
+            <input class="form-control" type="text" placeholder="@Model.UserName" disabled> <br />
+            </div>
+        </div>
+   
+    <div class="row">
+        <div class="col-md-12">
+            @Html.LabelFor(obj => obj.Courses)
+            @{
+                foreach (var role in Model.Roles)
+                {
+                    
+                    <input class="form-control" type="text" placeholder="@role.Role.Name" disabled> <br />
+                }
+                if(Model.Roles.Count==0)
+                {
+                <input class="form-control" type="text" placeholder=" " disabled> <br />
+                }
+            }
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            @Html.LabelFor(obj=>obj.EmailAdress)
+            <input class="form-control" type="text" placeholder="@Model.EmailAdress" disabled><br />
+            
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            @Html.LabelFor(obj => obj.Age)
+            <input class="form-control" type="text" placeholder="@Model.Age" disabled> <br />
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            @Html.LabelFor(obj => obj.City)
+            <input class="form-control" type="text" placeholder="@Model.City" disabled> <br />
+        </div>
+    </div>
+   
+
+
+
+</div>

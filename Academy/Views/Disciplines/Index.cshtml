@@ -1,0 +1,72 @@
+﻿@using Academy.Models;
+@using System.Data.Entity;
+@using PagedList;
+@using PagedList.Mvc
+@using Microsoft.AspNet.Identity;
+@using Microsoft.AspNet.Identity.EntityFramework;
+@using Academy.Infrastructure
+
+@model PagedList.IPagedList<Academy.Models.Course>
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h1 class="display-4">Courses</h1>
+Sort by:
+@Html.ActionLink("Free spaces ", "Index", new { sortOrder = "spaces_free" })
+@Html.ActionLink("Taken spaces", "Index", new { sortOrder = "spaces_taken" }) <br />
+<div class="container">
+<div class="row">
+
+
+@{
+    ApplicationDbContext context = new ApplicationDbContext();
+   
+    if(@ViewBag.RoleFull==true)
+    {
+        <span class="text-danger">This course is full. Please, choose another one.</span> <br />
+   @Html.ActionLink("Back", "Index")
+    
+    }
+  
+    else
+    { 
+    foreach (var course in Model)
+    {
+        <div class="col-md-4 mt-2">
+    <table class="table" border="1">
+        <tr>
+            <td><h1 class="lead">@course.Name</h1></td>
+        </tr>
+        <tr>
+            <td>@course.Description</td>
+        </tr>
+        <tr>
+            <td>Students: @course.Spaces / @course.TotalSpaces</td>
+        </tr>
+        <tr>
+            <td>
+                @using (Html.BeginForm("Index", "Disciplines", FormMethod.Post))
+                {
+                    <button name="button" class="card-link btn btn-sm btn-warning" value="@course.Name">Sign up!</button>
+                }
+            </td>
+        </tr>
+    </table>
+           
+        </div> <!-- end column-->
+    }
+    }
+}
+</div>
+    <div class="row">
+        <div class="col-12">
+            @if(Model!=null){
+            @Html.PagedListPager(Model, page => Url.Action("Index",
+    new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))
+            }
+        </div>
+    </div>
+</div>

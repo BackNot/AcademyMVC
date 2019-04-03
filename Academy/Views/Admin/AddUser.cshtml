@@ -1,0 +1,47 @@
+﻿@using Academy.Models
+@using Academy.Infrastructure
+@model ApplicationUser
+
+
+<h2>Users:</h2>
+<div class="table-responsive">
+    <!-- make table responsive-->
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id:</th>
+                <th>Name:</th>
+                <th>Email:</th>
+                <th>Age:</th>
+                <th>City:</th>
+                <th>Action:</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                ApplicationDbContext context = new ApplicationDbContext();
+                foreach (var user in context.Users)
+                {
+                    <tr>
+                        <td>@user.Id</td>
+                        <td>@user.UserName</td>
+                        <td>@user.EmailAdress</td>
+                        <td>@user.Age</td>
+                        <td>@user.City</td>
+                        <td>
+                            @using (Html.BeginForm("AddUser", "Admin"))
+                            {
+                                <button name="submit" class="btn btn-sm" value="@user.Id">Make Admin</button>
+                            }<br>
+                            @using (Html.BeginForm("RemoveUser", "Admin"))
+                            {
+                                <button name="submit" class="btn btn-sm" value="@user.Id">Remove Admin</button>
+                            }
+                        </td>
+                    </tr>
+
+                }
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,17 @@
+<h2>Colors</h2>
+In HTML, a color can be specified by using a color name:
+<br><br>
+Tomato<br>
+Orange<br>
+DodgerBlue<br>
+MediumSeaGreen<br>
+Gray<br>
+SlateBlue<br>
+Violet<br>
+LightGray<br>
+<br><br>
+<h2>Background Color</h2><br>
+You can set the background color for HTML elements:
+<br><br>
+[[<]]h1 style="background-color:DodgerBlue;"[[>]]Hello World[[<]]/h1[[>]]<br>
+[[<]]p style="background-color:Tomato;"[[>]]Lorem ipsum...[[<]]/p[[>]]

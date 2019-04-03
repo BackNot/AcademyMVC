@@ -1,0 +1,5 @@
+<h1>asd</h1>
+<script type="text/javascript">
+alert('ha')
+</script>
+[[<]]h1[[>]] jaja [[<]]h1[[>]]

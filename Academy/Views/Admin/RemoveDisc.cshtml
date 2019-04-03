@@ -1,0 +1,13 @@
+﻿
+
+<h2>Remove discipline</h2>
+@Html.ValidationSummary()
+@using (Html.BeginForm("RemoveDisc","Admin"))
+{ 
+    @Html.AntiForgeryToken()
+    <span class="text-muted">Please enter discipline's name:</span>
+@Html.TextBox("deleteName")
+    <input type="submit" class="btn" value="Remove" />
+    <br />
+    <span class="text-danger">Warning: This operation cannot be reversed!</span> 
+}

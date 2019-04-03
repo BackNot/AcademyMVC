@@ -1,0 +1,54 @@
+﻿@using Academy.Models
+@using Academy.Infrastructure
+@model Lesson
+@using System.IO
+
+<div class="container-fluid">
+    @{
+
+        <span class="text-danger"> @Html.ValidationSummary() </span>
+        ApplicationDbContext context = new ApplicationDbContext(); // set the context
+
+        List<SelectListItem> itemList = new List<SelectListItem>(); // this list will hold the options
+        foreach (var crs in context.Courses) // populate it with the courses
+        {
+            itemList.Add(new SelectListItem() { Text = crs.Name, Value = crs.Name });
+        }
+
+        using (Html.BeginForm("AddLesson"))
+        {
+            <div class="row">
+                <div class="col-4">
+                    Choose discipline:<br />
+                    @Html.DropDownList("dropDown", itemList) <!--make the user choose-->
+                </div>
+                <div class="col-8 text-right font-weight-light">
+                    To add: < type it like this: @Html.Raw("[[<]]");<br />
+                    To add: > type it like this: @Html.Raw("[[>]]");<br />
+                    To add: & type it like this: @Html.Raw("[[&]]");
+
+
+
+
+
+                </div>
+            </div>
+
+
+            <br /> <text>Name :</text><br /> @Html.TextBoxFor(obj => obj.Name)
+            <br /> <text>Short description :</text><br /> @Html.TextBoxFor(obj => obj.Description)
+
+            <br /> <text>Lesson : </text> <br />
+            @Html.TextAreaFor(obj => obj.Content,
+new { @cols = "100", @rows = "8", @style = "width:100%;" })
+            <input type="submit" class="btn btn-sm" value="OK!" />
+        }
+        <span class="text-muted">
+            Note: Every text will be treated as HTML (Example: &lt;h1&gt; text &lt;h1&gt; will cause big heading). <br />
+            To prevent this see above the textbox to add the escape characters.<br />For characters not listed, please consult the internet for the escape symbols.
+        </span>
+
+
+    }
+
+</div>

@@ -1,0 +1,63 @@
+﻿.card { /* this will make the card take full height and limit width to 13 rem*/
+    height: 100%; 
+    width: 13rem;
+}
+
+.table > tbody > tr > td { /* center the items in table*/
+    vertical-align: middle;
+    text-align: center;
+}
+
+.grey-bg { /* this is grey background */
+    background-color: lightgrey;
+}
+
+.btn-radius { /* btn decorate */
+    border-radius: 50%;
+}
+
+.padding-0 { /*  this class will remove padding from elements*/
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.container-fluid { /*make the background color Light Blue and set the container min height to 100 %*/
+    background-color: lightblue;
+    min-height: 100%;
+}
+
+html, body { /* Make html take full height and witdh while have no margin and padding*/
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer { /* align text in footer*/
+    text-align: center;
+}
+
+.mainLogo { /* this is the header img class*/
+    width: 23rem;
+    height: 18rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rightLogo { /* right logo class - here is the url of the img and some options*/
+    background-image: url("/Images/rightLogo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.leftLogo { /*left logo class - the same as right*/
+    background-image: url("/Images/leftLogo3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div-cont { /* because of this class our rightLogo column will be with height 150vh - this is making the window have a scroll bar. Its on purpose.*/
+    min-height: 150vh;
+}

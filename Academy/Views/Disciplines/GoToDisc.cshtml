@@ -1,0 +1,34 @@
+﻿@model IEnumerable<Academy.Models.Lesson>
+@using Academy.Models;
+@{
+    ViewBag.Title = "GoToDisc";
+}
+
+<h1 class="display-4">Lessons</h1><br />
+<div class="container">
+    <div class="row">
+
+
+        @{
+            foreach (var lesson in Model)
+            {
+                <div class="col-md-4 mt-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">@lesson.Name</h5>
+                            <p class="card-text">@lesson.Description</p>
+                        </div>
+                       
+
+                        <div class="card-body">
+                            @using (Html.BeginForm("Lesson", "Disciplines", FormMethod.Post))
+                            {
+                                <button name="submit" class="btn btn-sm btn-success" value="@lesson.PathToLesson">View lesson</button>
+                            }
+                        </div>
+                    </div>
+                </div> <!-- end column-->
+            }
+        }
+    </div>
+</div>

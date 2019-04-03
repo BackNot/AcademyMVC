@@ -1,0 +1,10 @@
+<h2>JavaScript Can Change HTML Content</h2><br>
+One of many JavaScript HTML methods is getElementById().<br><br>
+JavaScript accepts both double and single quotes.<br><br>
+
+This example uses the method to "find" an HTML element (with id="demo") and changes the element content (innerHTML) to "Hello JavaScript":
+
+<span class="text-muted">document.getElementById("demo").innerHTML = "Hello JavaScript";</span>
+<br><br>
+ JavaScript can also change the value of the src (source) attribute of an <img> tag.
+

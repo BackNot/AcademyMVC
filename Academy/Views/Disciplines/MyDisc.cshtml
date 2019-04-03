@@ -1,0 +1,51 @@
+﻿@using Microsoft.AspNet.Identity.EntityFramework
+@using Academy.Models
+@using Academy.Infrastructure;
+@model IEnumerable<IdentityUserRole>
+
+
+<h1 class="display-4">My courses</h1><br />
+<div class="container">
+    <div class="row">
+        @{
+            ApplicationDbContext context = new ApplicationDbContext();
+            foreach (var role in Model)
+            {
+                if (role.Role.Name != "Administrator") // don't show administrator's role
+                {
+                    <text>
+                        @{var course = context.Courses.Where(obj => obj.Name == role.Role.Name).SingleOrDefault();}
+
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">@role.Role.Name</h5>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        Students: @course.Spaces / @course.TotalSpaces
+                                    </li>
+                                    <li class="list-group-item">
+                                        @using (Html.BeginForm("GoToDisc", "Disciplines", FormMethod.Post))
+                                        {
+                                            <button name="button" class="card-link btn btn-block btn-sm btn-warning" value="@role.Role.Name">View lessons</button>
+                                        }
+                                    </li>
+
+                                </ul>
+                                <div class="card-body">
+
+                                    @using (Html.BeginForm("MyDisc", "Disciplines", FormMethod.Post))
+                                    {
+                                        <button name="button" class="card-link btn btn-sm btn-danger" value="@role.Role.Name">Remove course</button>
+                                    }
+                                </div>
+                            </div> <!-- end card-->
+                        </div> <!-- end column-->
+                    </text>
+                }
+            }
+
+        }
+    </div>
+</div>

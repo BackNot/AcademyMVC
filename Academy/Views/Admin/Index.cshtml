@@ -1,0 +1,46 @@
+﻿
+
+<h1 class="display-4">Admin options</h1><br />
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6">
+            @using (Html.BeginForm("AddDisc", "Admin",FormMethod.Get))
+            {
+                <input type="submit" class="btn btn-info" value="Add discipline" />
+            }
+        </div>
+        <div class="col-6">
+            @using (Html.BeginForm("RemoveDisc", "Admin",FormMethod.Get))
+            {
+                <input type="submit" class="btn btn-info" value="Remove discipline" />
+            }
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-6 ">
+            @using (Html.BeginForm("AddLesson", "Admin",FormMethod.Get))
+            {
+                <input type="submit" class="btn btn-info" value="Add lesson" />
+            }
+        </div>
+        <div class="col-6">
+            @using (Html.BeginForm("RemoveLesson", "Admin",FormMethod.Get))
+            {
+                <input type="submit" class="btn btn-info" value="Remove lesson" />
+            }
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-6">
+            @using (Html.BeginForm("AddUser", "Admin", FormMethod.Get))
+            {
+                <input type="submit" class="btn btn-info" value="Manage Users" />
+            }
+        </div>
+
+       
+    </div>
+
+  
+   
+</div>

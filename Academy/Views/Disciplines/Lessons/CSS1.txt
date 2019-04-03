@@ -1,0 +1,22 @@
+<h1>Why Use CSS?</h1><br>
+CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes. <br>
+<br><br>
+CSS Solved a Big Problem<br>
+HTML was NEVER intended to contain tags for formatting a web page!<br>
+<br>
+HTML was created to describe the content of a web page, like:<br>
+<br><br>
+&lt;h1&gt;This is a heading&lt;/h1&gt;
+<br>
+<p>This is a paragraph.</p>
+<br><br>
+When tags like [[<]]font[[>]], and color attributes were added to the HTML 3.2 specification, it started a nightmare for web developers. Development of large websites, where fonts and color information were added to every single page, became a long and expensive process.
+<br><br>
+To solve this problem, the World Wide Web Consortium (W3C) created CSS.
+<br><br>
+CSS removed the style formatting from the HTML page!
+<br><br>
+CSS Saves a Lot of Work!
+The style definitions are normally saved in external .css files.
+<br><br>
+With an external stylesheet file, you can change the look of an entire website by changing just one file!
