@@ -1,5 +1,8 @@
 # AcademyMVC
-This is an ASP.NET MVC project. It was a university assignment. I've used HTML5/CSS3 , Bootstrap , jQuery to build the frontend part.
+This is an ASP.NET MVC project. It was a university assignment. 
+
+I've used HTML5/CSS3 , Bootstrap , jQuery to build the frontend part. It's tested on Visual Studio 2017 and SQL Server 2017.
+
 The project is an Academy for online tutorials. You must create an account (ASP.NET Identity) in order to sign for a course, but it needs to has free spaces. After that you can start reading the lessons. 
 
 If you are in Administrator role , you can manage users (make/remove admin rights) , add/remove disciplines and lessons.
