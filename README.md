@@ -44,3 +44,13 @@ Note: All html symbols that we enter are not going to be sanitized. This should 
 
 Result:
 ![Add lesson2](https://github.com/BackNot/AcademyMVC/blob/master/PicturesOfProject/AcademyLesson2.png)
+
+
+You can remove discipline:
+![RemoveDiscipline](https://github.com/BackNot/AcademyMVC/blob/master/PicturesOfProject/RemoveDiscipline.png)
+
+
+Or remove lessons:
+![RemoveLessons](https://github.com/BackNot/AcademyMVC/blob/master/PicturesOfProject/RemoveLesson.png)
+
+
