@@ -47,10 +47,12 @@ Result:
 
 
 You can remove discipline:
+
 ![RemoveDiscipline](https://github.com/BackNot/AcademyMVC/blob/master/PicturesOfProject/RemoveDiscipline.png)
 
 
 Or remove lessons:
+
 ![RemoveLessons](https://github.com/BackNot/AcademyMVC/blob/master/PicturesOfProject/RemoveLesson.png)
 
 
